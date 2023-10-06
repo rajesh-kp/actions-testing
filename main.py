@@ -3,6 +3,8 @@ from fastapi import FastAPI
 
 app = FastAPI()
 
+dummy = "Testing"
+
 
 @app.get("/")
 def read_root():
