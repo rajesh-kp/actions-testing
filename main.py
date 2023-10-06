@@ -9,6 +9,7 @@ dummy = "Testing"
 @app.get("/")
 def read_root():
     return {"Hello": "World"}
+    print("Hello")
 
 
 @app.get("/items/{item_id}")
